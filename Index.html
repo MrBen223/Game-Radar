@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Game Radar</title>
+</head>
+<body>  
+    
+<!--------NAV BAR-------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="80px" src="images/Logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+<!--------Search Bar-------->
+              </button>
+              <div class="search-container">
+                <form>
+                  <input id="search" type="text" placeholder="Search..">
+                  <button id="go">Submit</button>
+                </form>
+              </div>
+<!--------Search Bar-------->
+<button onclick='DarkMode()'>Dark mode</button>
+<button onclick='SmallText()'>Small Text</button>
+<button onclick='MediumText()'>Medium Text</button>
+<button onclick='LargeText()'>Large Text</button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Index.html">Homepage</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="PC.html">PC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Console.html">Console</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Mobile.html">Mobile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<!--------NAV BAR-------->
+
+<h1>Homepage</h1>
+
+<!--Container-->
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <div class="card w-100">
+          <img src="Images/Corsair PC.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PC</h5>
+            <p class="card-text">The best gaming PCs deliver the power to play the most impressive, resource-demanding AAA games in the biggest and most elegant form possible. Naturally, these gaming rigs tend to have the highest price tags in the PC market.</p>
+            <a href="Console.html" class="btn btn-primary">Go to Check out this PC</a>
+          </div>
+      </div>
+    </div>  
+
+
+      <div class="col-xs-12 col-sm-3">
+        <div class="card w-100">
+          <img src="Images/PS5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PS5</h5>
+            <p class="card-text">Our expectations for the PS5 were extremely high after the phenomenal success of the PS4. And thankfully, Sony's next-gen console delivers and improves upon its predecessor in almost every aspect. </p>
+            <a href="Console.html" class="btn btn-primary">Go to Check out the PS5</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+        <div class="card w-100">
+          <img src="Images/Xbox X.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xbox Series X</h5>
+            <p class="card-text">The Xbox Series X utilizes its powerful specs to significantly reduce load times and boost overall game performance and visual fidelity. But while features such as Quick Resume, Smart Delivery and backward compatibility give it that extra edge, it’s hard to deny that it’s lacking in key areas – notably, significant UI improvements and captivating exclusive games.</p>
+            <a href="Console.html" class="btn btn-primary">Go to Check out the Xbox Series X</a>
+            </div>
+        </div>
+      </div>
+
+    <div class="col-xs-12 col-sm-3">
+      <div class="card w-100">
+        <img src="Images/Switch OLED.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nintendo Switch OLED</h5>
+          <p class="card-text">The Nintendo Switch OLED is a welcome upgrade, but one that pleases more than it wows. It's an inherently flawed product due to the console's original hybrid design: dock the Switch OLED, and the benefits of the sumptuous new 7-inch display, redesigned kickstand, and enhanced speakers vanish. If you’re a first-time Switch buyer this is undoubtedly the model to buy, but the improvements to the Switch OLED will only really benefit handheld and tabletop mode users – and if you’re thinking of upgrading, don’t expect a Nintendo Switch Pro.</p>
+          <a href="Console.html" class="btn btn-primary">Go to Check out the Nintendo Switch OLED</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-12 col-sm-3">
+      <div class="card w-100">
+        <img src="Images/Apple phones.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone 13</h5>
+          <p class="card-text">The iPhone 13 isn’t the biggest yearly iPhone upgrade we’ve seen, but almost every aspect of it is a little better than the iPhone 12, which makes it a brilliant iPhone overall. </p>
+          <a href="Mobile.html" class="btn btn-primary">Go to Check out the Iphone 13's</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-3">
+      <div class="card w-100">
+        <img src="Images/Witcher 3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PC Game</h5>
+          <p class="card-text">Wild Hunt is the new RPG by which all other RPGs should be judged. Not only has CD Projekt Red deliverered the largest and most convincing fantasy open-world we’ve ever seen, but a storyline, quests and systems that make it an incredibly compelling place to run, ride and sail around in. It’s the most breathtaking time sink you’re likely to play this year.</p>
+          <a href="Mobile.html" class="btn btn-primary">Go to Check out the game review</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-3">
+      <div class="card w-100">
+        <img src="Images/Spiderman Ps5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PS5 Game</h5>
+          <p class="card-text">Marvel’s Spider-Man: Miles Morales may not be quite as packed with content as the original, but it stands out as an essential story in Insomniac’s Spidey Universe. It earns its spot as a fantastic follow-up, telling a wonderful Miles-specific story while improving upon the fundamentals of the first game with distinctive moves and enemies. And it’s an excellent way to break in your new PlayStation 5; it looks spectacular, loads fast, and makes fun use of the DualSense controller, the directional audio, and more. But regardless of which generation you play it on, it’s a worthy followup to one of the best superhero games ever made.</p>
+          <a href="Mobile.html" class="btn btn-primary">Go to Check out the game review</a>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="card w-100">
+        <img src="Images/Clash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mobile Game</h5>
+          <p class="card-text">Clash of Clans by Supercell is an isometric 2D village builder and strategy hybrid with a massive community and consistent popularity. Players accumulate gold, elixir, and dark elixir to construct a kingdom with the ultimate goal of training increasingly powerful troops to attack and raid in the single player campaign or PvP. Defending one's kingdom is equally important and players must plan accordingly with walls, cannons, bombs and more. Upgrade your mines to increase your flow of resources and unlock 18 types of warriors and heroes through the 4 tier troop system. Finally join a Clan, combine forces, and take your battle to the global leader-board and make a name for yourself in PvP.</p>
+          <a href="Mobile.html" class="btn btn-primary">Go to Check out the game review</a>
+        </div>
+      </div>
+    </div>
+
+      </div>
+  </div>
+<!--Container-->
+
+<script src="scripts.js"></script>
+
+</body>
+</html>

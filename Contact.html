@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Game Radar</title>
+</head>
+<body>
+
+<!--------NAV BAR-------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="80px" src="images/Logo.png"></a>
+<!--------Search Bar-------->
+</button>
+<div class="search-container">
+  <form>
+    <input id="search" type="text" placeholder="Search..">
+    <button id="go">Submit</button>
+  </form>
+</div>
+<!--------Search Bar-------->
+<button onclick='DarkMode()'>Dark mode</button>
+<button onclick='SmallText()'>Small Text</button>
+<button onclick='MediumText()'>Medium Text</button>
+<button onclick='LargeText()'>Large Text</button>=
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Homepage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="PC.html">PC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Console.html">Console</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Mobile.html">Mobile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--------NAV BAR-------->
+
+    <h1>Contact page</h1>
+
+  <div id="WelcomeText">
+    <form onsubmit="ChangeText()" method="post" id="WelcomeForm">
+        <label>Please enter your name</label>
+        <input type="text" placeholder="Enter name..." required name="fname"><br>
+        <br>
+        <label>Please enter your email</label>
+        <input type="email" placeholder="Enter email..." required><br>
+        <br>
+        <label>Please enter your message below:</label><br>
+        <textarea cols="48" rows="16" required></textarea>
+        <input type="submit" value="Submit!">
+    </form>
+  </div>
+
+    <p class='pContact'>This is our email address fasdsada@kjgsadjl.com</p>
+    <p class='pContact'>This is our phone number 09328727236783476</p>
+
+
+
+    <script src="scripts.js"></script>   
+
+</body>
+</html>
